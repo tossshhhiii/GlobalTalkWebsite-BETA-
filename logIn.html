@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/logIn.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>globaltalk.com</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex-header">
+            <div class="header-img_wrapper">
+                <img src="img/GlobalTalk.svg" alt="#">
+            </div>
+            <div class="line-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2" height="18" viewBox="0 0 2 18" fill="none">
+                    <path d="M1.04761 0.567383V17.4326" stroke="#E0E0E0" stroke-width="1.20466"/>
+                </svg>
+            </div>
+            <ul class="header-list">
+                <li class="header-item id="index.html">
+                    <a href="index.html" class="header-link">
+                        Home
+                    </a>
+                </li>
+                <li class="header-item">
+                    <a href="#textBook" class="header-link">
+                        Textbook
+                    </a>
+                </li>
+                <li class="header-item">
+                    <a href="#statistic" class="header-link">
+                        Statistics
+                    </a>
+                </li>
+                <li class="header-item">
+                    <a href="#" class="header-link">
+                        Games   
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                            <path d="M3.81213 6.60889L7.27431 10.0713L10.7367 6.60889" stroke="#757575" stroke-width="1.6"/>
+                        </svg>
+                    </a>
+                    <ul class="submenu">
+                        <li class="submenu-item">
+                            <a href="#" class="submenu-link">
+                                Sprint →
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="#" class="submenu-link">
+                                Audio-call →
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="login">
+        <div class="container login-wrapper">
+            <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+                <h2 class="statistic-title">
+                    Registration 😀
+                </h2>
+    
+                <p class="lname-descr">
+                    first name
+                </p>
+                <input type="text" name="first Name" id="fname" class="lname-inp" placeholder="name" required min="3">
+    
+                <p class="fname-descr">
+                    last name
+                </p>
+                <input type="text" name="last Name" id="lname" class="fname-inp" placeholder="username" required min="3" >
+    
+                <p class="password-descr">
+                    Enter the password
+                </p>
+                <input type="password" name="password" id="password" class="password-inp" required autocomplete="on" min="5" max="20">
+                
+                <button type="submit" id="submit" class="submit">register</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">
+                            Textbook
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">
+                            Statistics
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">
+                            Sprint
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">
+                            Audio-call
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer-name_wrapper">
+                    <a href="#" class="footer-name">
+                        Alex
+                    </a>
+                    <a href="#" class="footer-name">
+                        Gabriel
+                    </a>
+                    <a href="#" class="footer-name">
+                        Marcus
+                    </a>
+                </div>
+            </div>
+            <div class="footer-buttom">
+                <div class="footer-icon_wrapper">
+                    <a href="https://github.com/" target="_blank">
+                        <img src="img/git.svg" alt="gitHub" class="footer-icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="img/gt.svg" alt="Gt" class="footer-icon">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="img/yt.svg" alt="youTube" class="footer-icon">
+                    </a>
+                </div>
+                <p class="footer-globalTalk_descr">
+                    &copy;2021&nbsp;GlobalTalk. Project for GlobalTalk.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/login.js"></script>
+</body>

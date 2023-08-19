@@ -1,0 +1,72 @@
+.statistic {
+    display: flex;
+    justify-content: center;
+    .statistic-wrapper {
+        max-width: 800px;
+        padding: 40px;
+        border-radius: 14px;
+        background: #FFF;
+        box-shadow: 0px 22.898128509521484px 45.79625701904297px -11.449064254760742px rgba(52, 41, 39, 0.08);
+        .statistic-text_wrapper {
+            margin-bottom: 7px;
+            .statistic-title {
+                max-width: 490px;
+                color: var(--primaty-black, #000);
+                font-family: Dela Gothic One;
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 100%; 
+                letter-spacing: -1.28px;
+            }
+            .statistic-descr {
+                color: var(--primaty-grey-dark, #757575);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 140%;
+                letter-spacing: -0.64px;
+                max-width: 490px;
+            }
+    
+            .statistic-btn_wrapper {
+                .logIn-btn {
+                    border: none;
+                    background: none;
+                    // text
+                    color: var(--primaty-black, #000);
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 100%;
+                    letter-spacing: -0.64px;
+                    margin-right: 30px;
+                    transition: 0.25s;
+                    &:hover {
+                        color: var(--primaty-cyan-dark, #2B788B);
+                        border-bottom: 1px solid #2B788B;
+                    }   
+                }
+                .signUp-btn {
+                    padding: 14px 22px;
+                    border: none;
+                    border-radius: 100px;
+                    background: var(--primaty-cyan-dark, #2B788B);
+                    // text
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100%; 
+                    letter-spacing: -0.64px;
+                    transition: 0.25s;
+                    &:hover {
+                        color: var(--primaty-cyan-dark, #2B788B);
+                        outline: 3px solid var(--primaty-cyan-dark, #2B788B);
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+}
